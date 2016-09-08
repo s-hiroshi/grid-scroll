@@ -1,0 +1,591 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Scroll</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/scroll.js"></script>
+	<script src="js/center.js"></script>
+	<script src="js/display.js"></script>
+</head>
+<body>
+<div class="container">
+	<div class="row">
+		<div class="col-lg-8 col-md-8 col-sm-12 col-xm-12"><h1>JavaScript スクロールのサンプル</h1></div>
+		<div class="col-lg-4 col-md-8 col-sm-12 col-xm-12">右エリア</div>
+		<!-- .col-lg-4 -->
+	</div>
+	<!-- .row -->
+</div>
+<!-- .container -->
+<div class="container">
+	<div class="row">
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+			<div class="block">
+				<div class="block__head">
+					<h2>Block A</h2>
+				</div>
+				<div class="block__body">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						A aut, esse illum iste non placeat quae quas temporibus vel velit.
+						Autem doloremque impedit nesciunt provident quaerat sit ut vel voluptatem?
+					</p>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						Amet animi asperiores consequatur eius eum ex maxime molestias necessitatibus,
+						nesciunt perspiciatis placeat quae quidem quos, rem sunt tenetur vel voluptatem voluptates.
+					</p>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						A aut, esse illum iste non placeat quae quas temporibus vel velit.
+						Autem doloremque impedit nesciunt provident quaerat sit ut vel voluptatem?
+					</p>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						Amet animi asperiores consequatur eius eum ex maxime molestias necessitatibus,
+						nesciunt perspiciatis placeat quae quidem quos, rem sunt tenetur vel voluptatem voluptates.
+					</p>
+				</div>
+				<div class="block__action">
+					<button class="open-more btn btn-default btn-sm">Read More</button>
+				</div>
+			</div>
+			<!-- .block -->
+			<div class="block--more">
+				<div class="block__head--more">Block A Read More</div>
+				<div class="block__body--more">
+					<p>
+						Block A<br>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						A aut, esse illum iste non placeat quae quas temporibus vel velit.
+						Autem doloremque impedit nesciunt provident quaerat sit ut vel voluptatem?
+					</p>
+
+					<p>
+						Block A<br>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						A aut, esse illum iste non placeat quae quas temporibus vel velit.
+						Autem doloremque impedit nesciunt provident quaerat sit ut vel voluptatem?
+					</p>
+
+					<p>
+						Block A<br>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						A aut, esse illum iste non placeat quae quas temporibus vel velit.
+						Autem doloremque impedit nesciunt provident quaerat sit ut vel voluptatem?
+					</p>
+
+					<p>
+						Block A<br>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						A aut, esse illum iste non placeat quae quas temporibus vel velit.
+						Autem doloremque impedit nesciunt provident quaerat sit ut vel voluptatem?
+					</p>
+				</div>
+				<div class="block__action--more">
+					<button class="close-more btn btn-default btn-sm">Close More</button>
+				</div>
+			</div>
+			<!-- .block more -->
+		</div>
+		<!-- .col -->
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xm-12">
+			<div class="block">
+				<div class="block__head">
+					<h2>Block B</h2>
+				</div>
+				<div class="block__body">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						A aut, esse illum iste non placeat quae quas temporibus vel velit.
+						Autem doloremque impedit nesciunt provident quaerat sit ut vel voluptatem?
+					</p>
+
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						Amet animi asperiores consequatur eius eum ex maxime molestias necessitatibus,
+						nesciunt perspiciatis placeat quae quidem quos, rem sunt tenetur vel voluptatem voluptates.
+					</p>
+
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						A aut, esse illum iste non placeat quae quas temporibus vel velit.
+						Autem doloremque impedit nesciunt provident quaerat sit ut vel voluptatem?
+					</p>
+
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						Amet animi asperiores consequatur eius eum ex maxime molestias necessitatibus,
+						nesciunt perspiciatis placeat quae quidem quos, rem sunt tenetur vel voluptatem voluptates.
+					</p></div>
+				<div class="block__action">
+					<button class="open-more btn btn-default btn-sm">Read More</button>
+				</div>
+			</div>
+			<!-- .block -->
+			<div class="block--more">
+				<div class="block__head--more">Block B Read More</div>
+				<div class="block__body--more">
+					<p>
+						Block B<br>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						A aut, esse illum iste non placeat quae quas temporibus vel velit.
+						Autem doloremque impedit nesciunt provident quaerat sit ut vel voluptatem?
+					</p>
+
+					<p>
+						Block B<br>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						A aut, esse illum iste non placeat quae quas temporibus vel velit.
+						Autem doloremque impedit nesciunt provident quaerat sit ut vel voluptatem?
+					</p>
+				</div>
+				<div class="block__action--more">
+					<button class="close-more btn btn-default btn-sm">Close More</button>
+				</div>
+			</div>
+			<!-- .block more -->
+		</div>
+		<!-- .col -->
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xm-12">
+			<div class="block">
+				<div class="block__head">
+					<h2>Block C</h2>
+				</div>
+				<div class="block__body">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						C aut, esse illum iste non placeat quae quas temporibus vel velit.
+						Cutem doloremque impedit nesciunt provident quaerat sit ut vel voluptatem?
+					</p>
+
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						Cmet animi asperiores consequatur eius eum ex maxime molestias necessitatibus,
+						nesciunt perspiciatis placeat quae quidem quos, rem sunt tenetur vel voluptatem voluptates.
+					</p>
+
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						C aut, esse illum iste non placeat quae quas temporibus vel velit.
+						Cutem doloremque impedit nesciunt provident quaerat sit ut vel voluptatem?
+					</p>
+
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						Cmet animi asperiores consequatur eius eum ex maxime molestias necessitatibus,
+						nesciunt perspiciatis placeat quae quidem quos, rem sunt tenetur vel voluptatem voluptates.
+					</p>
+				</div>
+				<div class="block__action">
+					<button class="open-more btn btn-default btn-sm">Read More</button>
+				</div>
+			</div>
+			<!-- .block -->
+			<div class="block--more">
+				<div class="block__head--more">Block C Read More</div>
+				<div class="block__body--more">
+					<p>
+						Block C<br>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						C aut, esse illum iste non placeat quae quas temporibus vel velit.
+						Cutem doloremque impedit nesciunt provident quaerat sit ut vel voluptatem?
+					</p>
+
+					<p>
+						Block C<br>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						C aut, esse illum iste non placeat quae quas temporibus vel velit.
+						Cutem doloremque impedit nesciunt provident quaerat sit ut vel voluptatem?
+					</p>
+				</div>
+				<div class="block__action--more">
+					<button class="close-more btn btn-default btn-sm">Close More</button>
+				</div>
+			</div>
+			<!-- .block more -->
+		</div>
+		<!-- .col -->
+	</div>
+	<!-- .row -->
+
+	<div class="row">
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+			<div class="block">
+				<div class="block__head">
+					<h2>Block D</h2>
+				</div>
+				<div class="block__body">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						D aut, esse illum iste non placeat quae quas temporibus vel velit.
+						Dutem doloremque impedit nesciunt provident quaerat sit ut vel voluptatem?
+					</p>
+
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						Dmet animi asperiores consequatur eius eum ex maxime molestias necessitatibus,
+						nesciunt perspiciatis placeat quae quidem quos, rem sunt tenetur vel voluptatem voluptates.
+					</p>
+
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						D aut, esse illum iste non placeat quae quas temporibus vel velit.
+						Dutem doloremque impedit nesciunt provident quaerat sit ut vel voluptatem?
+					</p>
+
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						Dmet animi asperiores consequatur eius eum ex maxime molestias necessitatibus,
+						nesciunt perspiciatis placeat quae quidem quos, rem sunt tenetur vel voluptatem voluptates.
+					</p>
+				</div>
+				<div class="block__action">
+					<button class="open-more btn btn-default btn-sm">Read More</button>
+				</div>
+			</div>
+			<!-- .block -->
+			<div class="block--more">
+				<div class="block__head--more">Block D Read More</div>
+				<div class="block__body--more">
+					<p>
+						Block D<br>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						D aut, esse illum iste non placeat quae quas temporibus vel velit.
+						Dutem doloremque impedit nesciunt provident quaerat sit ut vel voluptatem?
+					</p>
+
+					<p>
+						Block D<br>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						D aut, esse illum iste non placeat quae quas temporibus vel velit.
+						Dutem doloremque impedit nesciunt provident quaerat sit ut vel voluptatem?
+					</p>
+				</div>
+				<div class="block__action--more">
+					<button class="close-more btn btn-default btn-sm">Dlose More</button>
+				</div>
+			</div>
+			<!-- .block more -->
+		</div>
+		<!-- .col -->
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xm-12">
+			<div class="block">
+				<div class="block__head">
+					<h2>Block E</h2>
+				</div>
+				<div class="block__body">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						E aut, esse illum iste non placeat quae quas temporibus vel velit.
+						Eutem doloremque impedit nesciunt provident quaerat sit ut vel voluptatem?
+					</p>
+
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						Emet animi asperiores consequatur eius eum ex maxime molestias necessitatibus,
+						nesciunt perspiciatis placeat quae quidem quos, rem sunt tenetur vel voluptatem voluptates.
+					</p>
+
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						E aut, esse illum iste non placeat quae quas temporibus vel velit.
+						Eutem doloremque impedit nesciunt provident quaerat sit ut vel voluptatem?
+					</p>
+
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						Emet animi asperiores consequatur eius eum ex maxime molestias necessitatibus,
+						nesciunt perspiciatis placeat quae quidem quos, rem sunt tenetur vel voluptatem voluptates.
+					</p>
+				</div>
+				<div class="block__action">
+					<button class="open-more btn btn-default btn-sm">Read More</button>
+				</div>
+			</div>
+			<!-- .block -->
+			<div class="block--more">
+				<div class="block__head--more">Block E Read More</div>
+				<div class="block__body--more">
+					<p>
+						Block E<br>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						E aut, esse illum iste non placeat quae quas temporibus vel velit.
+						Eutem doloremque impedit nesciunt provident quaerat sit ut vel voluptatem?
+					</p>
+
+					<p>
+						Block E<br>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						E aut, esse illum iste non placeat quae quas temporibus vel velit.
+						Eutem doloremque impedit nesciunt provident quaerat sit ut vel voluptatem?
+					</p>
+				</div>
+				<div class="block__action--more">
+					<button class="close-more btn btn-default btn-sm">Elose More</button>
+				</div>
+			</div>
+			<!-- .block more -->
+		</div>
+		<!-- .col -->
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xm-12">
+			<div class="block">
+				<div class="block__head">
+					<h2>Block F</h2>
+				</div>
+				<div class="block__body">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						F aut, esse illum iste non placeat quae quas temporibus vel velit.
+						Futem doloremque impedit nesciunt provident quaerat sit ut vel voluptatem?
+					</p>
+
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						Fmet animi asperiores consequatur eius eum ex maxime molestias necessitatibus,
+						nesciunt perspiciatis placeat quae quidem quos, rem sunt tenetur vel voluptatem voluptates.
+					</p>
+
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						F aut, esse illum iste non placeat quae quas temporibus vel velit.
+						Futem doloremque impedit nesciunt provident quaerat sit ut vel voluptatem?
+					</p>
+
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						Fmet animi asperiores consequatur eius eum ex maxime molestias necessitatibus,
+						nesciunt perspiciatis placeat quae quidem quos, rem sunt tenetur vel voluptatem voluptates.
+					</p>
+				</div>
+				<div class="block__action">
+					<button class="open-more btn btn-default btn-sm">Read More</button>
+				</div>
+			</div>
+			<!-- .block -->
+			<div class="block--more">
+				<div class="block__head--more">Block F Read More</div>
+				<div class="block__body--more">
+					<p>
+						Block F<br>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						F aut, esse illum iste non placeat quae quas temporibus vel velit.
+						Futem doloremque impedit nesciunt provident quaerat sit ut vel voluptatem?
+					</p>
+
+					<p>
+						Block F<br>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						F aut, esse illum iste non placeat quae quas temporibus vel velit.
+						Futem doloremque impedit nesciunt provident quaerat sit ut vel voluptatem?
+					</p>
+				</div>
+				<div class="block__action--more">
+					<button class="close-more btn btn-default btn-sm">Close More</button>
+				</div>
+			</div>
+			<!-- .block more -->
+		</div>
+		<!-- .col -->
+	</div>
+	<!-- .row -->
+	<div class="row">
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+			<div class="block">
+				<div class="block__head">
+					<h2>Block G</h2>
+				</div>
+				<div class="block__body">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						G aut, esse illum iste non placeat quae quas temporibus vel velit.
+						Gutem doloremque impedit nesciunt provident quaerat sit ut vel voluptatem?
+					</p>
+
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						Gmet animi asperiores consequatur eius eum ex maxime molestias necessitatibus,
+						nesciunt perspiciatis placeat quae quidem quos, rem sunt tenetur vel voluptatem voluptates.
+					</p>
+
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						G aut, esse illum iste non placeat quae quas temporibus vel velit.
+						Gutem doloremque impedit nesciunt provident quaerat sit ut vel voluptatem?
+					</p>
+
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						Gmet animi asperiores consequatur eius eum ex maxime molestias necessitatibus,
+						nesciunt perspiciatis placeat quae quidem quos, rem sunt tenetur vel voluptatem voluptates.
+					</p>
+				</div>
+				<div class="block__action">
+					<button class="open-more btn btn-default btn-sm">Read More</button>
+				</div>
+			</div>
+			<!-- .block -->
+			<div class="block--more">
+				<div class="block__head--more">Glock G Read More</div>
+				<div class="block__body--more">
+					<p>
+						Block G<br>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						G aut, esse illum iste non placeat quae quas temporibus vel velit.
+						Gutem doloremque impedit nesciunt provident quaerat sit ut vel voluptatem?
+					</p>
+
+					<p>
+						Block G<br>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						G aut, esse illum iste non placeat quae quas temporibus vel velit.
+						Gutem doloremque impedit nesciunt provident quaerat sit ut vel voluptatem?
+					</p>
+				</div>
+				<div class="block__action--more">
+					<button class="close-more btn btn-default btn-sm">Close More</button>
+				</div>
+			</div>
+			<!-- .block more -->
+		</div>
+		<!-- .col -->
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xm-12">
+			<div class="block">
+				<div class="block__head">
+					<h2>Block H</h2>
+				</div>
+				<div class="block__body">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						I aut, esse illum iste non placeat quae quas temporibus vel velit.
+						Iutem doloremque impedit nesciunt provident quaerat sit ut vel voluptatem?
+					</p>
+
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						Imet animi asperiores consequatur eius eum ex maxime molestias necessitatibus,
+						nesciunt perspiciatis placeat quae quidem quos, rem sunt tenetur vel voluptatem voluptates.
+					</p>
+
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						I aut, esse illum iste non placeat quae quas temporibus vel velit.
+						Iutem doloremque impedit nesciunt provident quaerat sit ut vel voluptatem?
+					</p>
+
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						Imet animi asperiores consequatur eius eum ex maxime molestias necessitatibus,
+						nesciunt perspiciatis placeat quae quidem quos, rem sunt tenetur vel voluptatem voluptates.
+					</p>
+				</div>
+				<div class="block__action">
+					<button class="open-more btn btn-default btn-sm">Read More</button>
+				</div>
+			</div>
+			<!-- .block -->
+			<div class="block--more">
+				<div class="block__head--more">Block H Read More</div>
+				<div class="block__body--more">
+					<p>
+						Block H<br>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						I aut, esse illum iste non placeat quae quas temporibus vel velit.
+						Iutem doloremque impedit nesciunt provident quaerat sit ut vel voluptatem?
+					</p>
+
+					<p>
+						Block H<br>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						I aut, esse illum iste non placeat quae quas temporibus vel velit.
+						Iutem doloremque impedit nesciunt provident quaerat sit ut vel voluptatem?
+					</p>
+				</div>
+				<div class="block__action--more">
+					<button class="close-more btn btn-default btn-sm">Close More</button>
+				</div>
+			</div>
+			<!-- .block more -->
+		</div>
+		<!-- .col -->
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xm-12">
+			<div class="block">
+				<div class="block__head">
+					<h2>Block I</h2>
+				</div>
+				<div class="block__body">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						J aut, esse illum iste non placeat quae quas temporibus vel velit.
+						Jutem doloremque impedit nesciunt provident quaerat sit ut vel voluptatem?
+					</p>
+
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						Jmet animi asperiores consequatur eius eum ex maxime molestias necessitatibus,
+						nesciunt perspiciatis placeat quae quidem quos, rem sunt tenetur vel voluptatem voluptates.
+					</p>
+
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						J aut, esse illum iste non placeat quae quas temporibus vel velit.
+						Jutem doloremque impedit nesciunt provident quaerat sit ut vel voluptatem?
+					</p>
+
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						Jmet animi asperiores consequatur eius eum ex maxime molestias necessitatibus,
+						nesciunt perspiciatis placeat quae quidem quos, rem sunt tenetur vel voluptatem voluptates.
+					</p>
+				</div>
+				<div class="block__action">
+					<button class="open-more btn btn-default btn-sm">Read More</button>
+				</div>
+			</div>
+			<!-- .block -->
+			<div class="block--more">
+				<div class="block__head--more">Block I Read More</div>
+				<div class="block__body--more">
+					<p>
+						Block I<br>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						J aut, esse illum iste non placeat quae quas temporibus vel velit.
+						Jutem doloremque impedit nesciunt provident quaerat sit ut vel voluptatem?
+					</p>
+
+					<p>
+						Block I<br>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						J aut, esse illum iste non placeat quae quas temporibus vel velit.
+						Jutem doloremque impedit nesciunt provident quaerat sit ut vel voluptatem?
+					</p>
+				</div>
+				<div class="block__action--more">
+					<button class="close-more btn btn-default btn-sm">Close More</button>
+				</div>
+			</div>
+			<!-- .block more -->
+		</div>
+		<!-- .col -->
+	</div>
+	<!-- .row -->
+</div>
+<!-- .container -->
+<div class="container">
+	<div class="row">
+		<div class="col-lg-12">
+			Copyright(C) Info Town All Rights Reserved
+		</div>
+		<!-- .col-lg-12 -->
+	</div>
+	<!-- .row -->
+</div>
+<!-- .container -->
+</body>
+</html>
